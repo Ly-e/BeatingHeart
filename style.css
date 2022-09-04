@@ -6,11 +6,17 @@ body {
 #heart {
     position: relative;
     margin: 50vh 50%;
-    transition: all 1s;
+    animation: 0.5s infinite alternate-reverse Beat;
 }
 
-#heart:hover {
-    transform: scale(1.5);
+@keyframes Beat {
+    0% {
+        transform: scale(1.0);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
 }
 
 #heart>.right {
