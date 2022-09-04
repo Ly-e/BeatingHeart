@@ -1,0 +1,49 @@
+body {
+    border: 1px solid red;
+    height: 100vh;
+}
+
+#heart {
+    position: relative;
+    margin: 50vh 50%;
+}
+
+#heart:hover {
+    transform: scale(1.5);
+}
+
+#heart>.right {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(10px, -110px) rotate(45deg);
+    background: red;
+    border-radius: 50% 50% 0 0;
+
+}
+
+#heart>.left {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-110px, -110px) rotate(45deg);
+    background: red;
+    border-radius: 50% 0 0 50%;
+
+}
+
+#heart>.bottom {
+
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: red;
+
+}
