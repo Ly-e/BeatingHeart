@@ -6,6 +6,7 @@ body {
 #heart {
     position: relative;
     margin: 50vh 50%;
+    transition: all 1s;
 }
 
 #heart:hover {
